@@ -1,0 +1,3 @@
+retornar usuario passando usuario e senha 
+http://localhost:3000/user?name=victor&password=12345
+

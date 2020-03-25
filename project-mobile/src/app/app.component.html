@@ -1,0 +1,21 @@
+<!--<div class="thf-wrapper">
+  <thf-toolbar t-title="AppName"></thf-toolbar>
+
+  <thf-menu [t-menus]="menus"></thf-menu>
+
+  <thf-page-default t-title="AppName">
+    <p> AppName page </p>
+  </thf-page-default>
+</div>
+-->
+<div class="thf-wrapper">
+
+<thf-page-login 
+ t-hide-remember-user = 'true'
+ t-login-pattern ='@'
+(t-login-submit)="checkLogin($event)"
+>
+
+</thf-page-login>
+
+</div>
